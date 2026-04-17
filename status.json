@@ -1,0 +1,1119 @@
+{
+  "generated_at": "2026-07-24T23:54:01.413709Z",
+  "agents": {
+    "crew-1": {
+      "display": "Video Crew 1",
+      "role": "video production crew (dockerized; 3 characters)",
+      "model": "opus",
+      "schedule": "daily 02:00 local",
+      "cadence": "daily",
+      "expected_duration_min": 25,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-07-24T09:30:02Z",
+      "last_offline": {
+        "t": "2026-07-24T10:09:19Z",
+        "exit_code": 0,
+        "duration_sec": 2357
+      },
+      "next_run": "2026-07-25T00:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-07-20T03:30:03Z",
+          "ts": 1784518203,
+          "agent": "crew-1",
+          "event": "online",
+          "session": "20260720T053003+0200",
+          "pid": 3872922
+        },
+        {
+          "t": "2026-07-20T03:46:00Z",
+          "ts": 1784519160,
+          "agent": "crew-1",
+          "event": "offline",
+          "session": "20260720T053003+0200",
+          "exit_code": 0,
+          "duration_sec": 957
+        },
+        {
+          "t": "2026-07-21T03:30:03Z",
+          "ts": 1784604603,
+          "agent": "crew-1",
+          "event": "online",
+          "session": "20260721T053003+0200",
+          "pid": 280758
+        },
+        {
+          "t": "2026-07-21T03:46:31Z",
+          "ts": 1784605591,
+          "agent": "crew-1",
+          "event": "offline",
+          "session": "20260721T053003+0200",
+          "exit_code": 0,
+          "duration_sec": 988
+        },
+        {
+          "t": "2026-07-22T09:00:03Z",
+          "ts": 1784710803,
+          "agent": "crew-1",
+          "event": "online",
+          "session": "20260722T110003+0200",
+          "pid": 277780
+        },
+        {
+          "t": "2026-07-22T09:22:03Z",
+          "ts": 1784712123,
+          "agent": "crew-1",
+          "event": "offline",
+          "session": "20260722T110003+0200",
+          "exit_code": 0,
+          "duration_sec": 1320
+        },
+        {
+          "t": "2026-07-23T09:00:03Z",
+          "ts": 1784797203,
+          "agent": "crew-1",
+          "event": "online",
+          "session": "20260723T110002+0200",
+          "pid": 911609
+        },
+        {
+          "t": "2026-07-23T09:16:28Z",
+          "ts": 1784798188,
+          "agent": "crew-1",
+          "event": "offline",
+          "session": "20260723T110002+0200",
+          "exit_code": 0,
+          "duration_sec": 985
+        },
+        {
+          "t": "2026-07-24T09:30:02Z",
+          "ts": 1784885402,
+          "agent": "crew-1",
+          "event": "online",
+          "session": "20260724T113002+0200",
+          "pid": 1578361
+        },
+        {
+          "t": "2026-07-24T10:09:19Z",
+          "ts": 1784887759,
+          "agent": "crew-1",
+          "event": "offline",
+          "session": "20260724T113002+0200",
+          "exit_code": 0,
+          "duration_sec": 2357
+        }
+      ]
+    },
+    "crew-2": {
+      "display": "Video Crew 2",
+      "role": "video production crew (dockerized; 3 characters)",
+      "model": "opus",
+      "schedule": "daily 04:00 local",
+      "cadence": "daily",
+      "expected_duration_min": 25,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-07-23T16:00:03Z",
+      "last_offline": {
+        "t": "2026-07-23T17:02:31Z",
+        "exit_code": 0,
+        "duration_sec": 3748
+      },
+      "next_run": "2026-07-25T02:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-07-19T15:30:03Z",
+          "ts": 1784475003,
+          "agent": "crew-2",
+          "event": "online",
+          "session": "20260719T173003+0200",
+          "pid": 3572556
+        },
+        {
+          "t": "2026-07-19T15:49:29Z",
+          "ts": 1784476169,
+          "agent": "crew-2",
+          "event": "offline",
+          "session": "20260719T173003+0200",
+          "exit_code": 0,
+          "duration_sec": 1166
+        },
+        {
+          "t": "2026-07-20T15:30:02Z",
+          "ts": 1784561402,
+          "agent": "crew-2",
+          "event": "online",
+          "session": "20260720T173002+0200",
+          "pid": 4169560
+        },
+        {
+          "t": "2026-07-20T15:50:01Z",
+          "ts": 1784562601,
+          "agent": "crew-2",
+          "event": "offline",
+          "session": "20260720T173002+0200",
+          "exit_code": 0,
+          "duration_sec": 1199
+        },
+        {
+          "t": "2026-07-21T16:00:02Z",
+          "ts": 1784649602,
+          "agent": "crew-2",
+          "event": "online",
+          "session": "20260721T180002+0200",
+          "pid": 618786
+        },
+        {
+          "t": "2026-07-21T16:26:38Z",
+          "ts": 1784651198,
+          "agent": "crew-2",
+          "event": "offline",
+          "session": "20260721T180002+0200",
+          "exit_code": 0,
+          "duration_sec": 1596
+        },
+        {
+          "t": "2026-07-22T16:00:02Z",
+          "ts": 1784736002,
+          "agent": "crew-2",
+          "event": "online",
+          "session": "20260722T180002+0200",
+          "pid": 465728
+        },
+        {
+          "t": "2026-07-22T16:21:07Z",
+          "ts": 1784737267,
+          "agent": "crew-2",
+          "event": "offline",
+          "session": "20260722T180002+0200",
+          "exit_code": 0,
+          "duration_sec": 1265
+        },
+        {
+          "t": "2026-07-23T16:00:03Z",
+          "ts": 1784822403,
+          "agent": "crew-2",
+          "event": "online",
+          "session": "20260723T180003+0200",
+          "pid": 1115898
+        },
+        {
+          "t": "2026-07-23T17:02:31Z",
+          "ts": 1784826151,
+          "agent": "crew-2",
+          "event": "offline",
+          "session": "20260723T180003+0200",
+          "exit_code": 0,
+          "duration_sec": 3748
+        }
+      ]
+    },
+    "crew-3": {
+      "display": "Video Crew 3",
+      "role": "video production crew (dockerized; 3 characters)",
+      "model": "opus",
+      "schedule": "daily 08:00 local",
+      "cadence": "daily",
+      "expected_duration_min": 25,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-07-23T22:30:03Z",
+      "last_offline": {
+        "t": "2026-07-23T23:12:56Z",
+        "exit_code": 0,
+        "duration_sec": 2573
+      },
+      "next_run": "2026-07-25T06:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-07-19T21:00:05Z",
+          "ts": 1784494805,
+          "agent": "crew-3",
+          "event": "online",
+          "session": "20260719T230005+0200",
+          "pid": 3712396
+        },
+        {
+          "t": "2026-07-19T21:17:50Z",
+          "ts": 1784495870,
+          "agent": "crew-3",
+          "event": "offline",
+          "session": "20260719T230005+0200",
+          "exit_code": 0,
+          "duration_sec": 1065
+        },
+        {
+          "t": "2026-07-20T21:30:04Z",
+          "ts": 1784583004,
+          "agent": "crew-3",
+          "event": "online",
+          "session": "20260720T233004+0200",
+          "pid": 128750
+        },
+        {
+          "t": "2026-07-20T21:47:00Z",
+          "ts": 1784584020,
+          "agent": "crew-3",
+          "event": "offline",
+          "session": "20260720T233004+0200",
+          "exit_code": 0,
+          "duration_sec": 1016
+        },
+        {
+          "t": "2026-07-21T22:00:05Z",
+          "ts": 1784671205,
+          "agent": "crew-3",
+          "event": "online",
+          "session": "20260722T000005+0200",
+          "pid": 9271
+        },
+        {
+          "t": "2026-07-21T22:12:32Z",
+          "ts": 1784671952,
+          "agent": "crew-3",
+          "event": "offline",
+          "session": "20260722T000005+0200",
+          "exit_code": 0,
+          "duration_sec": 747
+        },
+        {
+          "t": "2026-07-22T22:30:03Z",
+          "ts": 1784759403,
+          "agent": "crew-3",
+          "event": "online",
+          "session": "20260723T003003+0200",
+          "pid": 632508
+        },
+        {
+          "t": "2026-07-22T22:44:54Z",
+          "ts": 1784760294,
+          "agent": "crew-3",
+          "event": "offline",
+          "session": "20260723T003003+0200",
+          "exit_code": 0,
+          "duration_sec": 891
+        },
+        {
+          "t": "2026-07-23T22:30:03Z",
+          "ts": 1784845803,
+          "agent": "crew-3",
+          "event": "online",
+          "session": "20260724T003003+0200",
+          "pid": 1295794
+        },
+        {
+          "t": "2026-07-23T23:12:56Z",
+          "ts": 1784848376,
+          "agent": "crew-3",
+          "event": "offline",
+          "session": "20260724T003003+0200",
+          "exit_code": 0,
+          "duration_sec": 2573
+        }
+      ]
+    },
+    "crew-4": {
+      "display": "Video Crew 4",
+      "role": "video production crew (dockerized; 3 characters)",
+      "model": "opus",
+      "schedule": "daily 12:00 local",
+      "cadence": "daily",
+      "expected_duration_min": 25,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-07-24T03:30:03Z",
+      "last_offline": {
+        "t": "2026-07-24T04:00:35Z",
+        "exit_code": 0,
+        "duration_sec": 1832
+      },
+      "next_run": "2026-07-25T10:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-07-19T23:30:05Z",
+          "ts": 1784503805,
+          "agent": "crew-4",
+          "event": "online",
+          "session": "20260720T013005+0200",
+          "pid": 3777170
+        },
+        {
+          "t": "2026-07-19T23:49:03Z",
+          "ts": 1784504943,
+          "agent": "crew-4",
+          "event": "offline",
+          "session": "20260720T013005+0200",
+          "exit_code": 0,
+          "duration_sec": 1138
+        },
+        {
+          "t": "2026-07-21T00:00:04Z",
+          "ts": 1784592004,
+          "agent": "crew-4",
+          "event": "online",
+          "session": "20260721T020004+0200",
+          "pid": 192610
+        },
+        {
+          "t": "2026-07-21T00:27:19Z",
+          "ts": 1784593639,
+          "agent": "crew-4",
+          "event": "offline",
+          "session": "20260721T020004+0200",
+          "exit_code": 0,
+          "duration_sec": 1635
+        },
+        {
+          "t": "2026-07-22T03:30:02Z",
+          "ts": 1784691002,
+          "agent": "crew-4",
+          "event": "online",
+          "session": "20260722T053002+0200",
+          "pid": 143714
+        },
+        {
+          "t": "2026-07-22T03:50:07Z",
+          "ts": 1784692207,
+          "agent": "crew-4",
+          "event": "offline",
+          "session": "20260722T053002+0200",
+          "exit_code": 0,
+          "duration_sec": 1205
+        },
+        {
+          "t": "2026-07-23T03:30:03Z",
+          "ts": 1784777403,
+          "agent": "crew-4",
+          "event": "online",
+          "session": "20260723T053003+0200",
+          "pid": 762477
+        },
+        {
+          "t": "2026-07-23T03:47:40Z",
+          "ts": 1784778460,
+          "agent": "crew-4",
+          "event": "offline",
+          "session": "20260723T053003+0200",
+          "exit_code": 0,
+          "duration_sec": 1057
+        },
+        {
+          "t": "2026-07-24T03:30:03Z",
+          "ts": 1784863803,
+          "agent": "crew-4",
+          "event": "online",
+          "session": "20260724T053003+0200",
+          "pid": 1421755
+        },
+        {
+          "t": "2026-07-24T04:00:35Z",
+          "ts": 1784865635,
+          "agent": "crew-4",
+          "event": "offline",
+          "session": "20260724T053003+0200",
+          "exit_code": 0,
+          "duration_sec": 1832
+        }
+      ]
+    },
+    "crew-5": {
+      "display": "Video Crew 5",
+      "role": "video production crew (dockerized; 3 characters)",
+      "model": "opus",
+      "schedule": "daily 17:00 local",
+      "cadence": "daily",
+      "expected_duration_min": 25,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-07-24T15:30:03Z",
+      "last_offline": {
+        "t": "2026-07-24T16:13:03Z",
+        "exit_code": 0,
+        "duration_sec": 2580
+      },
+      "next_run": "2026-07-25T15:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-07-21T14:30:03Z",
+          "ts": 1784644203,
+          "agent": "crew-5",
+          "event": "online",
+          "session": "20260721T163003+0200",
+          "pid": 575617
+        },
+        {
+          "t": "2026-07-21T14:40:23Z",
+          "ts": 1784644823,
+          "agent": "crew-5",
+          "event": "offline",
+          "session": "20260721T163003+0200",
+          "exit_code": 0,
+          "duration_sec": 620
+        },
+        {
+          "t": "2026-07-21T15:30:02Z",
+          "ts": 1784647802,
+          "agent": "crew-5",
+          "event": "online",
+          "session": "20260721T173002+0200",
+          "pid": 601703
+        },
+        {
+          "t": "2026-07-21T15:42:34Z",
+          "ts": 1784648554,
+          "agent": "crew-5",
+          "event": "offline",
+          "session": "20260721T173002+0200",
+          "exit_code": 0,
+          "duration_sec": 752
+        },
+        {
+          "t": "2026-07-22T15:30:02Z",
+          "ts": 1784734202,
+          "agent": "crew-5",
+          "event": "online",
+          "session": "20260722T173002+0200",
+          "pid": 446922
+        },
+        {
+          "t": "2026-07-22T15:46:15Z",
+          "ts": 1784735175,
+          "agent": "crew-5",
+          "event": "offline",
+          "session": "20260722T173002+0200",
+          "exit_code": 0,
+          "duration_sec": 973
+        },
+        {
+          "t": "2026-07-23T11:07:53Z",
+          "ts": 1784804873,
+          "agent": "crew-5",
+          "event": "online",
+          "session": "20260723T130753+0200",
+          "pid": 985316
+        },
+        {
+          "t": "2026-07-23T11:25:18Z",
+          "ts": 1784805918,
+          "agent": "crew-5",
+          "event": "offline",
+          "session": "20260723T130753+0200",
+          "exit_code": 0,
+          "duration_sec": 1045
+        },
+        {
+          "t": "2026-07-24T15:30:03Z",
+          "ts": 1784907003,
+          "agent": "crew-5",
+          "event": "online",
+          "session": "20260724T173002+0200",
+          "pid": 1734245
+        },
+        {
+          "t": "2026-07-24T16:13:03Z",
+          "ts": 1784909583,
+          "agent": "crew-5",
+          "event": "offline",
+          "session": "20260724T173002+0200",
+          "exit_code": 0,
+          "duration_sec": 2580
+        }
+      ]
+    },
+    "strategus": {
+      "display": "Strategic Planner",
+      "role": "brand + strategy + long-term direction",
+      "model": "opus",
+      "schedule": "daily 12:00 local",
+      "cadence": "daily",
+      "expected_duration_min": 10,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-07-24T10:00:25Z",
+      "last_offline": {
+        "t": "2026-07-24T10:03:40Z",
+        "exit_code": 0,
+        "duration_sec": 195
+      },
+      "next_run": "2026-07-25T10:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-07-22T10:00:25Z",
+          "ts": 1784714425,
+          "agent": "strategus",
+          "event": "online",
+          "session": "2026-07-22T100001Z",
+          "pid": 310883
+        },
+        {
+          "t": "2026-07-22T10:02:46Z",
+          "ts": 1784714566,
+          "agent": "strategus",
+          "event": "offline",
+          "session": "2026-07-22T100001Z",
+          "exit_code": 0,
+          "duration_sec": 141
+        },
+        {
+          "t": "2026-07-23T06:30:20Z",
+          "ts": 1784788220,
+          "agent": "strategus",
+          "event": "online",
+          "session": "2026-07-23T063001Z",
+          "pid": 852093
+        },
+        {
+          "t": "2026-07-23T06:37:24Z",
+          "ts": 1784788644,
+          "agent": "strategus",
+          "event": "offline",
+          "session": "2026-07-23T063001Z",
+          "exit_code": 0,
+          "duration_sec": 424
+        },
+        {
+          "t": "2026-07-23T10:00:31Z",
+          "ts": 1784800831,
+          "agent": "strategus",
+          "event": "online",
+          "session": "2026-07-23T100001Z",
+          "pid": 949204
+        },
+        {
+          "t": "2026-07-23T10:04:52Z",
+          "ts": 1784801092,
+          "agent": "strategus",
+          "event": "offline",
+          "session": "2026-07-23T100001Z",
+          "exit_code": 0,
+          "duration_sec": 261
+        },
+        {
+          "t": "2026-07-24T06:30:22Z",
+          "ts": 1784874622,
+          "agent": "strategus",
+          "event": "online",
+          "session": "2026-07-24T063001Z",
+          "pid": 1505423
+        },
+        {
+          "t": "2026-07-24T06:37:32Z",
+          "ts": 1784875052,
+          "agent": "strategus",
+          "event": "offline",
+          "session": "2026-07-24T063001Z",
+          "exit_code": 0,
+          "duration_sec": 430
+        },
+        {
+          "t": "2026-07-24T10:00:25Z",
+          "ts": 1784887225,
+          "agent": "strategus",
+          "event": "online",
+          "session": "2026-07-24T100001Z",
+          "pid": 1599657
+        },
+        {
+          "t": "2026-07-24T10:03:40Z",
+          "ts": 1784887420,
+          "agent": "strategus",
+          "event": "offline",
+          "session": "2026-07-24T100001Z",
+          "exit_code": 0,
+          "duration_sec": 195
+        }
+      ]
+    },
+    "scribe": {
+      "display": "Observer",
+      "role": "daily chronicle + colony state",
+      "model": "opus",
+      "schedule": "daily 23:00 local",
+      "cadence": "daily",
+      "expected_duration_min": 5,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-07-24T21:00:01Z",
+      "last_offline": {
+        "t": "2026-07-24T21:13:12Z",
+        "exit_code": 0,
+        "duration_sec": 791
+      },
+      "next_run": "2026-07-25T21:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-07-20T21:00:04Z",
+          "ts": 1784581204,
+          "agent": "scribe",
+          "event": "online",
+          "session": "2026-07-20T210003Z",
+          "pid": 115631
+        },
+        {
+          "t": "2026-07-20T21:09:49Z",
+          "ts": 1784581789,
+          "agent": "scribe",
+          "event": "offline",
+          "session": "2026-07-20T210003Z",
+          "exit_code": 0,
+          "duration_sec": 585
+        },
+        {
+          "t": "2026-07-21T21:00:03Z",
+          "ts": 1784667603,
+          "agent": "scribe",
+          "event": "online",
+          "session": "2026-07-21T210002Z",
+          "pid": 765396
+        },
+        {
+          "t": "2026-07-21T21:10:28Z",
+          "ts": 1784668228,
+          "agent": "scribe",
+          "event": "offline",
+          "session": "2026-07-21T210002Z",
+          "exit_code": 0,
+          "duration_sec": 625
+        },
+        {
+          "t": "2026-07-22T21:00:01Z",
+          "ts": 1784754001,
+          "agent": "scribe",
+          "event": "online",
+          "session": "2026-07-22T210001Z",
+          "pid": 592643
+        },
+        {
+          "t": "2026-07-22T21:11:37Z",
+          "ts": 1784754697,
+          "agent": "scribe",
+          "event": "offline",
+          "session": "2026-07-22T210001Z",
+          "exit_code": 0,
+          "duration_sec": 696
+        },
+        {
+          "t": "2026-07-23T21:00:03Z",
+          "ts": 1784840403,
+          "agent": "scribe",
+          "event": "online",
+          "session": "2026-07-23T210002Z",
+          "pid": 1241767
+        },
+        {
+          "t": "2026-07-23T21:12:47Z",
+          "ts": 1784841167,
+          "agent": "scribe",
+          "event": "offline",
+          "session": "2026-07-23T210002Z",
+          "exit_code": 0,
+          "duration_sec": 764
+        },
+        {
+          "t": "2026-07-24T21:00:01Z",
+          "ts": 1784926801,
+          "agent": "scribe",
+          "event": "online",
+          "session": "2026-07-24T210001Z",
+          "pid": 1885032
+        },
+        {
+          "t": "2026-07-24T21:13:12Z",
+          "ts": 1784927592,
+          "agent": "scribe",
+          "event": "offline",
+          "session": "2026-07-24T210001Z",
+          "exit_code": 0,
+          "duration_sec": 791
+        }
+      ]
+    },
+    "loom": {
+      "display": "Website Agent",
+      "role": "public site + voting-surface maintainer",
+      "model": "opus",
+      "schedule": "daily 02:30 local",
+      "cadence": "daily",
+      "expected_duration_min": 8,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": null,
+      "last_offline": null,
+      "next_run": "2026-07-25T00:30:01Z",
+      "recent_events": []
+    },
+    "exori": {
+      "display": "Exori",
+      "role": "external social surface \u2014 engagement",
+      "model": "opus",
+      "schedule": "daily 11:30 + 17:30 local",
+      "cadence": "2x-daily",
+      "expected_duration_min": 10,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-07-24T19:20:13Z",
+      "last_offline": {
+        "t": "2026-07-24T19:29:34Z",
+        "exit_code": 0,
+        "duration_sec": 561
+      },
+      "next_run": "2026-07-25T09:30:01Z",
+      "recent_events": [
+        {
+          "t": "2026-07-23T15:30:01Z",
+          "ts": 1784820601,
+          "agent": "exori",
+          "event": "online",
+          "session": "20260723T153001Z",
+          "pid": 1101612
+        },
+        {
+          "t": "2026-07-23T15:51:28Z",
+          "ts": 1784821888,
+          "agent": "exori",
+          "event": "offline",
+          "session": "20260723T153001Z",
+          "exit_code": 0,
+          "duration_sec": 1287
+        },
+        {
+          "t": "2026-07-24T09:30:01Z",
+          "ts": 1784885401,
+          "agent": "exori",
+          "event": "online",
+          "session": "20260724T093001Z",
+          "pid": 1578171
+        },
+        {
+          "t": "2026-07-24T09:48:23Z",
+          "ts": 1784886503,
+          "agent": "exori",
+          "event": "offline",
+          "session": "20260724T093001Z",
+          "exit_code": 0,
+          "duration_sec": 1102
+        },
+        {
+          "t": "2026-07-24T15:30:01Z",
+          "ts": 1784907001,
+          "agent": "exori",
+          "event": "online",
+          "session": "20260724T153001Z",
+          "pid": 1734022
+        },
+        {
+          "t": "2026-07-24T15:54:34Z",
+          "ts": 1784908474,
+          "agent": "exori",
+          "event": "offline",
+          "session": "20260724T153001Z",
+          "exit_code": 0,
+          "duration_sec": 1473
+        },
+        {
+          "t": "2026-07-24T16:05:09Z",
+          "ts": 1784909109,
+          "agent": "exori",
+          "event": "online",
+          "session": "20260724T160509Z",
+          "pid": 1760571
+        },
+        {
+          "t": "2026-07-24T16:19:17Z",
+          "ts": 1784909957,
+          "agent": "exori",
+          "event": "offline",
+          "session": "20260724T160509Z",
+          "exit_code": 0,
+          "duration_sec": 848
+        },
+        {
+          "t": "2026-07-24T19:20:13Z",
+          "ts": 1784920813,
+          "agent": "exori",
+          "event": "online",
+          "session": "20260724T192013Z",
+          "pid": 1844409
+        },
+        {
+          "t": "2026-07-24T19:29:34Z",
+          "ts": 1784921374,
+          "agent": "exori",
+          "event": "offline",
+          "session": "20260724T192013Z",
+          "exit_code": 0,
+          "duration_sec": 561
+        }
+      ]
+    },
+    "exori-recap": {
+      "display": "Exori (recap)",
+      "role": "external social surface \u2014 recap",
+      "model": "opus",
+      "schedule": "daily 23:50 local (\u226545 min after scribe)",
+      "cadence": "daily",
+      "expected_duration_min": 15,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-07-24T21:50:01Z",
+      "last_offline": {
+        "t": "2026-07-24T22:07:05Z",
+        "exit_code": 0,
+        "duration_sec": 1024
+      },
+      "next_run": "2026-07-25T21:50:01Z",
+      "recent_events": [
+        {
+          "t": "2026-07-20T21:50:02Z",
+          "ts": 1784584202,
+          "agent": "exori-recap",
+          "event": "online",
+          "session": "20260720T215002Z",
+          "pid": 141737
+        },
+        {
+          "t": "2026-07-20T22:07:27Z",
+          "ts": 1784585247,
+          "agent": "exori-recap",
+          "event": "offline",
+          "session": "20260720T215002Z",
+          "exit_code": 0,
+          "duration_sec": 1045
+        },
+        {
+          "t": "2026-07-21T21:50:01Z",
+          "ts": 1784670601,
+          "agent": "exori-recap",
+          "event": "online",
+          "session": "20260721T215001Z",
+          "pid": 3893
+        },
+        {
+          "t": "2026-07-21T22:14:27Z",
+          "ts": 1784672067,
+          "agent": "exori-recap",
+          "event": "offline",
+          "session": "20260721T215001Z",
+          "exit_code": 0,
+          "duration_sec": 1466
+        },
+        {
+          "t": "2026-07-22T21:50:01Z",
+          "ts": 1784757001,
+          "agent": "exori-recap",
+          "event": "online",
+          "session": "20260722T215001Z",
+          "pid": 614230
+        },
+        {
+          "t": "2026-07-22T22:02:55Z",
+          "ts": 1784757775,
+          "agent": "exori-recap",
+          "event": "offline",
+          "session": "20260722T215001Z",
+          "exit_code": 0,
+          "duration_sec": 774
+        },
+        {
+          "t": "2026-07-23T21:50:01Z",
+          "ts": 1784843402,
+          "agent": "exori-recap",
+          "event": "online",
+          "session": "20260723T215001Z",
+          "pid": 1269560
+        },
+        {
+          "t": "2026-07-23T22:07:08Z",
+          "ts": 1784844428,
+          "agent": "exori-recap",
+          "event": "offline",
+          "session": "20260723T215001Z",
+          "exit_code": 0,
+          "duration_sec": 1027
+        },
+        {
+          "t": "2026-07-24T21:50:01Z",
+          "ts": 1784929801,
+          "agent": "exori-recap",
+          "event": "online",
+          "session": "20260724T215001Z",
+          "pid": 1907892
+        },
+        {
+          "t": "2026-07-24T22:07:05Z",
+          "ts": 1784930825,
+          "agent": "exori-recap",
+          "event": "offline",
+          "session": "20260724T215001Z",
+          "exit_code": 0,
+          "duration_sec": 1024
+        }
+      ]
+    },
+    "echo": {
+      "display": "Architect",
+      "role": "human-triggered colony architect",
+      "model": "opus",
+      "schedule": "on-demand (human trigger)",
+      "cadence": "on-demand",
+      "expected_duration_min": 0,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-07-24T21:17:33Z",
+      "last_offline": {
+        "t": "2026-07-24T21:23:08Z",
+        "exit_code": 0,
+        "duration_sec": 335
+      },
+      "next_run": null,
+      "recent_events": [
+        {
+          "t": "2026-07-24T16:04:32Z",
+          "ts": 1784909072,
+          "agent": "echo",
+          "event": "online",
+          "session": "2026-07-24T160432Z",
+          "pid": 1760005
+        },
+        {
+          "t": "2026-07-24T16:15:26Z",
+          "ts": 1784909726,
+          "agent": "echo",
+          "event": "offline",
+          "session": "2026-07-24T160432Z",
+          "exit_code": 0,
+          "duration_sec": 654
+        },
+        {
+          "t": "2026-07-24T16:55:15Z",
+          "ts": 1784912115,
+          "agent": "echo",
+          "event": "online",
+          "session": "2026-07-24T165515Z",
+          "pid": 1782593
+        },
+        {
+          "t": "2026-07-24T17:12:30Z",
+          "ts": 1784913150,
+          "agent": "echo",
+          "event": "offline",
+          "session": "2026-07-24T165515Z",
+          "exit_code": 0,
+          "duration_sec": 1035
+        },
+        {
+          "t": "2026-07-24T19:19:22Z",
+          "ts": 1784920762,
+          "agent": "echo",
+          "event": "online",
+          "session": "2026-07-24T191922Z",
+          "pid": 1842706
+        },
+        {
+          "t": "2026-07-24T19:25:27Z",
+          "ts": 1784921127,
+          "agent": "echo",
+          "event": "offline",
+          "session": "2026-07-24T191922Z",
+          "exit_code": 0,
+          "duration_sec": 365
+        },
+        {
+          "t": "2026-07-24T21:14:09Z",
+          "ts": 1784927649,
+          "agent": "echo",
+          "event": "online",
+          "session": "2026-07-24T211409Z",
+          "pid": 1892230
+        },
+        {
+          "t": "2026-07-24T21:16:18Z",
+          "ts": 1784927778,
+          "agent": "echo",
+          "event": "offline",
+          "session": "2026-07-24T211409Z",
+          "exit_code": 0,
+          "duration_sec": 129
+        },
+        {
+          "t": "2026-07-24T21:17:33Z",
+          "ts": 1784927853,
+          "agent": "echo",
+          "event": "online",
+          "session": "2026-07-24T211733Z",
+          "pid": 1893499
+        },
+        {
+          "t": "2026-07-24T21:23:08Z",
+          "ts": 1784928188,
+          "agent": "echo",
+          "event": "offline",
+          "session": "2026-07-24T211733Z",
+          "exit_code": 0,
+          "duration_sec": 335
+        }
+      ]
+    }
+  },
+  "daily": {
+    "date": "2026-07-24",
+    "counts": {
+      "crew-1": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "crew-2": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "crew-3": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "crew-4": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "crew-5": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "strategus": {
+        "online_events": 2,
+        "offline_events": 2
+      },
+      "scribe": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "loom": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "exori": {
+        "online_events": 4,
+        "offline_events": 4
+      },
+      "exori-recap": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "echo": {
+        "online_events": 9,
+        "offline_events": 9
+      }
+    }
+  }
+}
